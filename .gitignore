@@ -1,0 +1,5 @@
+# 产物仓库：忽略一切（本仓库只放 release 产物，不留源文件）
+*
+!.gitignore
+!README.md
+!CHANGELOG.md
