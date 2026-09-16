@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.5.0（2026-09-16）
+
+### ✨ 新功能
+- 退出自动收尾
+- 空目录/空项目目录导入提供「初始化为新项目」——写脚手架+重扫导入
+
+### 🐛 修复
+- setup-android 去掉已移除的 legacy tools 包（packages: platform-tools）——sdkmanager 报 Failed to find package tools 退出 1
+- release 工作流 cmdline-tools 钉到 12.0（11076708）——16.0 许可交互回归导致 setup-android 挂
+
+
 ## 1.4.0（2026-09-14）
 
 ### ✨ 新功能
